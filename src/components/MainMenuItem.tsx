@@ -1,12 +1,17 @@
-import Nav from "react-bootstrap/esm/Nav";
+import {NavLink} from "react-router";
 import type {MainMenuItemProps} from "../types.ts";
 
 const MainMenuItem = ({icon, title, url}: MainMenuItemProps) => (
     <li>
-        <Nav.Link className="d-flex flex-column justify-content-center align-items-center" href={url}>
+        <NavLink
+            to={url}
+            className={({isActive}) =>
+                `d-flex flex-column justify-content-center align-items-center text-decoration-none ${isActive ? 'text-nord-8' : 'text-nord-6'}`
+            }
+        >
             <i className={`bi ${icon} fs-5`} aria-hidden="true"></i>
             <span>{title}</span>
-        </Nav.Link>
+        </NavLink>
     </li>
 )
 
