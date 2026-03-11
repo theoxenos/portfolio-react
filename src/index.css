@@ -23,7 +23,17 @@
 .bg-nord-2 {
     background-color: var(--nord-2);
 }
+.bg-nord-8 {
+    background-color: var(--nord-8);
+}
 
+.border-nord-3 {
+    border-color: var(--nord-3) !important;
+}
+
+.text-nord-0 {
+    color: var(--nord-0);
+}
 .text-nord-3 {
     color: var(--nord-3);
 }
@@ -45,4 +55,8 @@
 
 a {
     color: var(--nord-12)   ;
+}
+
+body {
+    background-color: var(--nord-0);
 }

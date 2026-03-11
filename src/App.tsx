@@ -3,7 +3,7 @@ import {Outlet} from "react-router";
 import MainMenu from "./components/MainMenu";
 
 const App = () => (
-    <Container className="p-3 vh-100">
+    <Container className="p-3">
         <MainMenu />
         <Outlet/>
     </Container>
