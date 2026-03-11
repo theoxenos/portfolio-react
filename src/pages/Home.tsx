@@ -4,7 +4,16 @@ import {Anchor} from "react-bootstrap";
 const Home = () => (
     <div className="mt-5 text-nord-6">
         <h1>Hello, I am <span className="text-nord-7">Andreas</span></h1>
-        <h5 className="text-nord-4">An aspiring Web Developer</h5>
+        <span>
+            <h5 className="text-nord-4">An aspiring Web Developer</h5>
+            <a
+                href="/20260220_CVAndreas.pdf"
+                download="20260220_CVAndreas.pdf"
+                className="text-nord-8 text-decoration-none cursor-pointer"
+            >
+                <i className="bi bi-download"></i> CV
+            </a>
+        </span>
         <div className="mt-3 p-2 text-white border-1 border-black rounded-2 shadow bg-nord-2">
             <p>
                 At this point, I am still learning the ropes of web development.
