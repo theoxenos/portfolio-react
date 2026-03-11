@@ -4,7 +4,7 @@ import MainMenu from "./components/MainMenu";
 
 const App = () => (
     <Container className="p-3">
-        <MainMenu />
+        <MainMenu/>
         <Outlet/>
     </Container>
 );
