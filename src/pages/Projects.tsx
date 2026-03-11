@@ -32,18 +32,18 @@ const Projects = () => {
       {projects.map((project, index) => (
         <Row
           key={index}
-          className="mb-5 p-4 rounded-2 shadow bg-nord-2 align-items-center"
+          className="mb-5 p-4 rounded-2 shadow bg-nord-2"
         >
-          <Col xs={12} md={5} lg={4} className="mb-3 mb-md-0">
+          <Col xs={12} className="mb-4">
             <Image
               src={project.screenshot}
               fluid
               rounded
-              className="shadow-sm border border-nord-3"
+              className="shadow-sm border border-nord-3 w-100"
               alt={`${project.title} screenshot`}
             />
           </Col>
-          <Col xs={12} md={7} lg={8}>
+          <Col xs={12}>
             <h3 className="text-nord-7">{project.title}</h3>
             <div className="mb-3">
               {project.stack.map((tech, techIndex) => (
