@@ -15,19 +15,19 @@ import About from './pages/About.tsx'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App/>,
+    Component: App,
     children: [
       {
         index: true,
-        element: <Home/>,
+        Component: Home,
       },
       {
         path: 'projects',
-        element: <Projects/>,
+        Component: Projects,
       },
       {
         path: 'about',
-        element: <About/>,
+        Component: About,
       },
     ],
   },
