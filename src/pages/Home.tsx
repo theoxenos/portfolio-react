@@ -4,7 +4,7 @@ import {Anchor} from "react-bootstrap";
 const Home = () => (
     <div className="mt-5 text-nord-6">
         <h1>Hello, I am <span className="text-nord-7">Andreas</span></h1>
-        <span>
+        <span className="d-flex gap-3">
             <h5 className="text-nord-4">An aspiring Web Developer</h5>
             <a
                 href="/20260220_CVAndreas.pdf"
