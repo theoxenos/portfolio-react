@@ -9,7 +9,7 @@ const Home = () => (
             <a
                 href="/20260220_CVAndreas.pdf"
                 download="20260220_CVAndreas.pdf"
-                className="text-nord-8 text-decoration-none cursor-pointer"
+                className="text-decoration-none cursor-pointer"
             >
                 <i className="bi bi-download"></i> CV
             </a>
@@ -29,7 +29,7 @@ const Home = () => (
                 <Anchor href="https://github.com/theoxenos/FortunaPrimigenia" rel="noopener noreferrer">
                     GitHub repository
                 </Anchor>
-                . Or visit the <Link to="/projects" className="text-nord-8 text-decoration-none">Projects</Link> page.
+                . Or visit the <Link to="/projects" className="text-decoration-none">Projects</Link> page.
             </p>
         </div>
     </div>
