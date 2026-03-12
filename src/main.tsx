@@ -12,26 +12,31 @@ import Home from './pages/Home.tsx'
 import Projects from './pages/Projects.tsx'
 import About from './pages/About.tsx'
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    Component: App,
-    children: [
+const router = createBrowserRouter(
+    [
       {
-        index: true,
-        Component: Home,
-      },
-      {
-        path: 'projects',
-        Component: Projects,
-      },
-      {
-        path: 'about',
-        Component: About,
+        path: '/',
+        Component: App,
+        children: [
+          {
+            index: true,
+            Component: Home,
+          },
+          {
+            path: 'projects',
+            Component: Projects,
+          },
+          {
+            path: 'about',
+            Component: About,
+          },
+        ],
       },
     ],
-  },
-])
+    {
+      basename: '/portfolio-react/',
+    }
+)
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
