@@ -31,7 +31,8 @@ const About = () => {
                                                                                 target="_blank"
                                                                                 rel="noopener noreferrer">Full Stack
                         Open</a> course to learn the <strong>MERN</strong> stack and other dev related skills
-                        like <strong>CI/CD</strong> and <strong>Docker</strong></li>
+                        like <strong>CI/CD</strong> and <strong>Docker</strong>.
+                    </li>
                     <li>In the meantime I'm also working on <a href="https://thecsharpacademy.com" target="_blank"
                                                                rel="noopener noreferrer">The CSharp
                         Academy</a> projects to work on my .NET skills.
