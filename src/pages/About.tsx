@@ -1,4 +1,4 @@
-import ParagraphBlock from "../components/ParagraphBlock.tsx";
+import ParagraphBlock from '../components/ParagraphBlock.tsx';
 
 const About = () => {
     return (
@@ -40,6 +40,6 @@ const About = () => {
             </ParagraphBlock>
         </div>
     );
-}
+};
 
 export default About;

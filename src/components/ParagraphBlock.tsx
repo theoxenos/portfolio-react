@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react';
 
 const ParagraphBlock = ({children} : {children: React.ReactNode}) => {
     const cssClassList = [
@@ -10,13 +10,13 @@ const ParagraphBlock = ({children} : {children: React.ReactNode}) => {
         'rounded-2',
         'shadow',
         'bg-nord-2'
-    ]
+    ];
     
     return (
         <div className={cssClassList.join(' ')}>
             {children}
         </div>
-    )
-}
+    );
+};
 
-export default ParagraphBlock
+export default ParagraphBlock;

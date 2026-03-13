@@ -1,6 +1,6 @@
-import {Link} from "react-router";
-import {Anchor} from "react-bootstrap";
-import ParagraphBlock from "../components/ParagraphBlock.tsx";
+import {Link} from 'react-router';
+import {Anchor} from 'react-bootstrap';
+import ParagraphBlock from '../components/ParagraphBlock.tsx';
 
 const Home = () => (
     <div className="mt-5 text-nord-6">

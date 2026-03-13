@@ -1,4 +1,4 @@
-import MainMenuItem from "./MainMenuItem.tsx";
+import MainMenuItem from './MainMenuItem.tsx';
 
 const MainMenu = () => {
     const menuItems = [
@@ -19,6 +19,6 @@ const MainMenu = () => {
             </ul>
         </div>
     );
-}
+};
 
 export default MainMenu;

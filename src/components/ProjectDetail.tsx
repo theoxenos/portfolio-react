@@ -1,5 +1,5 @@
-import {Badge, Col, Row, Image} from "react-bootstrap";
-import type {Project} from "../types.ts";
+import {Badge, Col, Row, Image} from 'react-bootstrap';
+import type {Project} from '../types.ts';
 
 const ProjectDetail = ({project}: { project: Project }) => {
 
@@ -25,7 +25,7 @@ const ProjectDetail = ({project}: { project: Project }) => {
                 <p className="text-nord-4">{project.description}</p>
             </Col>
         </Row>
-    )
-}
+    );
+};
 
-export default ProjectDetail
+export default ProjectDetail;
