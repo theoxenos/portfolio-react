@@ -1,5 +1,6 @@
 import {Link} from "react-router";
 import {Anchor} from "react-bootstrap";
+import ParagraphBlock from "../components/ParagraphBlock.tsx";
 
 const Home = () => (
     <div className="mt-5 text-nord-6">
@@ -14,7 +15,7 @@ const Home = () => (
                 <i className="bi bi-download"></i> CV
             </a>
         </span>
-        <div className="mt-3 p-2 text-white border-1 border-black rounded-2 shadow bg-nord-2">
+        <ParagraphBlock>
             <p>
                 At this point, I am still learning the ropes of web development.
                 I have experience with HTML, CSS, JavaScript, Typescript and .NET.
@@ -31,7 +32,7 @@ const Home = () => (
                 </Anchor>
                 . Or visit the <Link to="/projects" className="text-decoration-none">Projects</Link> page.
             </p>
-        </div>
+        </ParagraphBlock>
     </div>
 );
 
