@@ -1,21 +1,21 @@
-import portfolio from "../assets/projects/portfolio.png";
-import type {Project} from "../types.ts";
-import ProjectDetail from "../components/ProjectDetail.tsx";
+import portfolio from '../assets/projects/portfolio.png';
+import type {Project} from '../types.ts';
+import ProjectDetail from '../components/ProjectDetail.tsx';
 
 const projects: Project[] = [
     {
-        title: "Fortuna Primigenia",
+        title: 'Fortuna Primigenia',
         description:
-            "A full stack budgeting application to help users manage their finances. It features transaction tracking, budget management, and insightful data visualization.",
+            'A full stack budgeting application to help users manage their finances. It features transaction tracking, budget management, and insightful data visualization.',
         screenshot: portfolio,
-        stack: ["React", ".NET", "SQL Server", "TypeScript", "Bootstrap", "C#"],
+        stack: ['React', '.NET', 'SQL Server', 'TypeScript', 'Bootstrap', 'C#'],
     },
     {
-        title: "Portfolio website",
+        title: 'Portfolio website',
         description:
-            "A personal portfolio website to showcase my projects and skills. Designed with a focus on simplicity and responsiveness using the Nord color palette.",
+            'A personal portfolio website to showcase my projects and skills. Designed with a focus on simplicity and responsiveness using the Nord color palette.',
         screenshot: portfolio,
-        stack: ["React", "Vite", "TypeScript", "Bootstrap", "Nord"],
+        stack: ['React', 'Vite', 'TypeScript', 'Bootstrap', 'Nord'],
     },
 ];
 
