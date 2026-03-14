@@ -3,8 +3,8 @@ import MainMenuItem from './MainMenuItem.tsx';
 const MainMenu = () => {
     const menuItems = [
         {title: 'Home', url: '/', icon: 'bi-house-fill'},
-        {title: 'Projects', url: '/projects', icon: 'bi-code-slash'},
-        {title: 'About', url: '/about', icon: 'bi-info-circle-fill'},        
+        {title: 'Projects', url: 'projects', icon: 'bi-code-slash'},
+        {title: 'About', url: 'about', icon: 'bi-info-circle-fill'},
     ];
     
     return (
