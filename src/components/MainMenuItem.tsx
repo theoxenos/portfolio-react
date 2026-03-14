@@ -1,5 +1,5 @@
-import {NavLink} from "react-router";
-import type {MainMenuItemProps} from "../types.ts";
+import {NavLink} from 'react-router';
+import type {MainMenuItemProps} from '../types.ts';
 
 const MainMenuItem = ({icon, title, url}: MainMenuItemProps) => (
     <li>
@@ -13,6 +13,6 @@ const MainMenuItem = ({icon, title, url}: MainMenuItemProps) => (
             <span>{title}</span>
         </NavLink>
     </li>
-)
+);
 
-export default MainMenuItem
+export default MainMenuItem;
